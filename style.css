@@ -124,4 +124,44 @@ body {
 .img-footer img{
     width: 50px;
 }
+@media screen and (max-width: 1020px) {
+    .imagem-titulo img {
+        border-radius: 30px 10% 15% 0px;
+    }
+    .pai {
+        width: 95%;
+    }
+}
 
+@media screen and (max-width: 520px) {
+  
+    .texto-titulo{
+        font-size: 26px;
+    }
+   .titulo {
+    height: 100px;
+   }
+    .menu {
+        flex-wrap: wrap;
+    }
+    .box-text {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-1 {
+        width: 90%;
+        margin: 10px;
+    }
+    .box-2 {
+        width: 90%;
+    }
+    .three-img {
+        flex-wrap: wrap;
+    }
+    .three-img img {
+        border-radius: 30%;
+        width: 30%;
+        height: 30%;
+    }
+}
